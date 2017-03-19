@@ -1,9 +1,9 @@
 #!/usr/bin/with-contenv bash
 
-#�install app
+# install app
 [[ ! -d /app/headphones/.git ]] && \
 	git clone -b develop https://github.com/rembo10/headphones.git /app/headphones
 
-#�permissions
+# permissions
 chown -R abc:abc \
 	/app
